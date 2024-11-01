@@ -1,0 +1,40 @@
+/*** ****************************Plugin Title And Logo*********************  ***/
+.plugin_title_box{
+    margin: 25px 0px 10px 25px;
+    width: auto;
+}
+.plugin_title{
+    margin-left: 2px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.plugin_titleimg{
+    width: 30px;
+    height: 30px;
+}
+/* RWS JVB */
+.cls_loader {
+    background: url("../../images/cls_loder.gif") no-repeat scroll center center #666D74;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    overflow: hidden;
+    padding-top: 20%;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.main_div
+{
+    border: 2px aqua solid;
+    width: 99%; 
+    min-height: 450px;
+    text-align: center;
+}
+/*.login *{
+    margin: 2px;
+    padding: 0;
+}*/

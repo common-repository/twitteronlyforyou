@@ -1,0 +1,10 @@
+<?php
+$cons_key=get_option('api_key');
+$cons_secret=get_option('secret_key');
+define('CONSUMER_KEY',$cons_key);
+define('CONSUMER_SECRET',$cons_secret);
+define('OAUTH_CALLBACK',home_url('index.php?social-connect=twitter_callback'));
+//$CONSUMER_KEY='qJTsAPugyLopM4IQ4sg1oT9OQ';
+//$CONSUMER_SECRET='cac8sJs7xkdCU8Al8cVBw9zL4yhGXX6aPXzRsphSboRDc2cuAY';
+//$OAUTH_CALLBACK='';
+?>
